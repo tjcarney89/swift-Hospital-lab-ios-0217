@@ -77,7 +77,7 @@ class ProtocolSpec: QuickSpec {
                 let messageForEnglish = fakeJim.teachSubject(.english)
                 
                 expect(messageForMath).to(equal("Take out your math books please."))
-                expect(messageForScience).to(equal("Time to learn the best subject of all! Science!!"))
+                expect(messageForScience).to(equal("Time to learn the best subject of all! Science!"))
                 expect(messageForEnglish).to(equal("To read or not to read. Everyone take out your english books."))
 
             }
